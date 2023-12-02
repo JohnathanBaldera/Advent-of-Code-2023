@@ -107,8 +107,6 @@ func main() {
 			lastInt.valid = true
 		}
 
-		fmt.Println(line)
-		fmt.Println(firstInt.num, lastInt.num)
 	
 		calibration, _ := strconv.Atoi(string(firstInt.num) + string(lastInt.num))
 		total += calibration
