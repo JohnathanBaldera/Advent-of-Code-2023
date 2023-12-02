@@ -17,7 +17,7 @@ func isDigit(char byte) bool {
 }
 
 func main() {	
-	file, err := os.Open("./part1_input.txt")
+	file, err := os.Open("../input.txt")
 
 	if err != nil {
 		panic(err)
